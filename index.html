@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café am Platz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Willkommen im Café am Platz</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menü</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#reservation">Reservierung</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="menu">
+        <h2>Unser Menü</h2>
+        <ul>
+            <li>Kaffee</li>
+            <li>Teespezialitäten</li>
+            <li>Kuchen und Gebäck</li>
+            <li>Sandwiches</li>
+        </ul>
+    </section>
+    
+    <section id="about">
+        <h2>Über uns</h2>
+        <p>Das Café am Platz ist ein gemütlicher Treffpunkt für Jung und Alt, wo Sie eine entspannte Atmosphäre und köstliche Speisen genießen können.</p>
+    </section>
+    
+    <section id="reservation">
+        <h2>Reservierung</h2>
+        <form id="reservation-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="date">Datum:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Uhrzeit:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <label for="guests">Anzahl der Gäste:</label>
+            <input type="number" id="guests" name="guests" required>
+            
+            <button type="submit">Reservieren</button>
+        </form>
+    </section>
+    
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Adresse: Musterstraße 1, 12345 Musterstadt</p>
+        <p>Telefon: 01234 567890</p>
+        <p>Email: info@cafeamplatz.de</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Café am Platz. Alle Rechte vorbehalten.</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
